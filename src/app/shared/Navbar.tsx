@@ -1,5 +1,5 @@
-import React from 'react'
-
+import Image from 'next/image';
+import logo from '../../../public/logo.png'
 const Navbar = () => {
   return (
     <div className="absolute m-8 mt-4 top-0 left-0 w-[95%] z-20">
@@ -12,10 +12,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="grid-cols-1 flex justify-center items-center">
-          <img className="h-15 w-15" src="https://i.ibb.co/qLcSxSQL/kmlogo.png" alt="Logo" />
+          <Image className="h-9 w-16" src={logo} alt="Logo" />
         </div>
         <div className="grid-cols-1 flex justify-end items-center">
-          <button className="btn bg-blue-500 rounded-xl text-white font-bold">Get a Quote</button>
+          <button className="btn bg-[#0087DB] rounded-xl text-white font-bold">Get a Quote</button>
         </div>
       </section>
     </div>

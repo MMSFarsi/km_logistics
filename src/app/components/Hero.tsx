@@ -6,7 +6,7 @@ import img3 from "../../../public/truck.jpeg";
 
 const Hero = () => {
   return (
-    <section className="relative rounded-4xl h-screen overflow-hidden mx-10 mt-4 bg-black text-white pt-24">
+    <section className="relative rounded-[17px] h-screen overflow-hidden mt-4 bg-black text-white pt-24">
       <Image
         src={bgImage}
         alt="Background"
