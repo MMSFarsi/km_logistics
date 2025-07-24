@@ -9,7 +9,7 @@ import Performance from './components/Performance'
 
 const page = () => {
   return (
- <div className='max-w-12x px-10  mx-auto'>
+ <div className=''>
   <Hero></Hero>
   <About></About>
   <Carrier></Carrier>

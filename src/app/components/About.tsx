@@ -4,15 +4,14 @@ import aboutImg2 from "../../../public/aboutimg2.png";
 
 const About = () => {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 gap-4 py-16">
-      {/* Text */}
+    <section className="grid grid-cols-1 md:grid-cols-2 gap-2 py-16">
       <div>
         <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-white  rounded-2xl shadow-sm">
           About Us
         </button>
         <h2 className="text-5xl mt-4 font-bold">
-          Trusted & Faster{" "}
-          <span className="text-gray-300">Logistic Service Provider</span>
+          Trusted & Faster
+          <span className="text-black/25"> Logistic Service Provider</span>
         </h2>
         <h3 className="mt-14">
           KM Logistics Limited is a trusted and reliable logistics company with
@@ -33,27 +32,14 @@ const About = () => {
         </div>
       </div>
 
-      {/* image */}
-      <div className="grid grid-cols-3 gap-2 items-center justify-center">
+      <div className="flex gap-4 items-center justify-center">
         <div className="row-span-2 col-span-2">
-          <Image
-            src={aboutImg1}
-            alt="About Image"
-            className="w-[600px] h-[420px]  "
-          />
+          <Image src={aboutImg1} alt="About Image"  className=" h-fit object-cover " />
         </div>
 
         <div className="flex flex-col justify-center items-center gap-2">
-          <Image
-            src={aboutImg2}
-            alt="About Image"
-            className="w-[210px] h-fit object-cover"
-          />
-          <Image
-            src={aboutImg2}
-            alt="About Image"
-            className="w-[210px] h-fit object-cover"
-          />
+          <Image src={aboutImg2}  alt="About Image" className=" h-fit object-cover"  />
+          <Image  src={aboutImg2} alt="About Image" className=" h-fit object-cover"/>
         </div>
       </div>
     </section>
