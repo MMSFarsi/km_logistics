@@ -6,19 +6,10 @@ import Navbar from "./shared/Navbar";
 import Footer from "./components/Footer";
 
 const Satoshi = localFont({
-  src: '../../public/fonts/Satoshi/Satoshi-Regular.woff2',
+  src: '../fonts/Satoshi/Satoshi-Regular.woff2',
 })
 
 
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
 
 export const metadata: Metadata = {
   title: "Km Logistics",
