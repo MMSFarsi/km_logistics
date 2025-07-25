@@ -6,7 +6,7 @@ import Navbar from "./shared/Navbar";
 import Footer from "./components/Footer";
 
 const Satoshi = localFont({
-  src: '../fonts/Satoshi/Satoshi-Regular.woff2',
+  src: '../fonts/satoshi/Satoshi-Regular.woff2',
 })
 
 
